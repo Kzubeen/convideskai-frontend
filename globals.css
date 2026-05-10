@@ -1,0 +1,13 @@
+@import "tailwindcss"; /* Ye line saare Tailwind tools ko load karegi */
+
+/* Humara Neon Design System */
+@theme {
+  --color-primary: #00E676; /* WhatsApp Green */
+  --color-background: #0a0a0a; /* Dark SaaS Background */
+  --color-surface: #121212;
+}
+
+:root {
+  background-color: var(--color-background);
+  color: white;
+}
